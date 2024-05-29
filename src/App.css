@@ -1,0 +1,35 @@
+.header nav,
+.footer nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+.main{
+    padding: 3rem;
+    height: 100vh;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+p{
+    font-size: 35px;
+    margin-left: 100px;
+    color: blue;
+}
